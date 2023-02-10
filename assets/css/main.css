@@ -3346,7 +3346,7 @@ input, select, textarea {
 					height: calc(100% + 200px);
 					background-size: 200%;
 					background-attachment: none;
-					background-position: top center;
+					background-position: top 50px center;
 				}
 	
 				#wrapper > .bg {
