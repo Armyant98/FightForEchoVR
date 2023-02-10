@@ -2694,7 +2694,7 @@ input, select, textarea {
 				margin: 2.5rem 0;
 				width: 100%;
 				height: 500px;
-				scroll-behavior: none;
+				
 			}
 
 			
@@ -3273,7 +3273,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 		position: absolute;
-		z-index: 1;
+		z-index: 0;
 		background-image: url("../../images/EchoBacktoBack.jpg");
 		background-color: rgb(32, 32, 32);
 		background-size: cover;
@@ -3293,8 +3293,8 @@ input, select, textarea {
 			left: 0;
 			width: 100vw;
 			height: 100vh;
-			background-color: rgb(36, 36, 36, 0);
-			background-image: url();
+			background-color: rgb(36, 36, 36);
+			background-image: url("../../images/EchoBacktoBack.jpg");
 			background-size: cover;
 			background-position: top center ;
 			background-repeat: no-repeat;
