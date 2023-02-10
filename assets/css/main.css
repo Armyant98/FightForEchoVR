@@ -3338,6 +3338,7 @@ input, select, textarea {
 			#wrapper > .bg {
 				background-position: 45%;
 			}
+		}
 
 			@supports (-webkit-touch-callout: none)  {
 
