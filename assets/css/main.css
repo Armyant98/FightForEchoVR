@@ -3273,7 +3273,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 		position: absolute;
-		z-index: 0;
+		z-index: 1;
 		background-image: url("../../images/EchoBacktoBack.jpg");
 		background-color: rgb(32, 32, 32);
 		background-size: cover;
@@ -3338,6 +3338,21 @@ input, select, textarea {
 			#wrapper > .bg {
 				background-position: 45%;
 			}
+
+			@supports (-webkit-touch-callout: none)  {
+
+				#wrapper {
+					height: calc(100% + 200px);
+					background-size: 200%;
+					background-attachment: none;
+					background-position: center center;
+				}
+	
+				#wrapper > .bg {
+					display: none;
+					position: fixed;
+				}
+	
 
 		}
 
