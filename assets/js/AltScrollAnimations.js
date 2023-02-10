@@ -15,7 +15,7 @@ window.addEventListener('scroll', function(){
     //Here you forgot to update the value
     scrollpos = window.scrollY;
 
-    if(scrollpos > 680){
+    if(scrollpos > 260){
         add_class_on_scroll();
     }
     else {

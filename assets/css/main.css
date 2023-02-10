@@ -2646,6 +2646,39 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.tiktok {
+			display: block;
+			margin: 2.5rem 0;
+			width: 100%;
+			height: 80%;
+		}
+		
+
+
+	
+		
+
+		.video.main {
+			display: block;
+			margin: 4rem 0;
+			width: 100%;
+			height: 600px;
+		}
+
+
+
+		
+		@media screen and (max-width: 1280px) {
+
+			.video.main {
+				display: block;
+				margin: 4rem 0;
+				width: 100%;
+				height: 500px;
+
+		}
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
@@ -2656,6 +2689,23 @@ input, select, textarea {
 				margin: 2rem 0;
 			}
 
+			.tiktok {
+				display: block;
+				margin: 2.5rem 0;
+				width: 100%;
+				height: 500px;
+				scroll-behavior: none;
+			}
+
+			
+			.video.main {
+				display: block;
+				margin: 4rem 0;
+				width: 100%;
+				height: 200px;
+			}
+
+			
 		}
 
 	a.image {
