@@ -3227,10 +3227,14 @@ input, select, textarea {
 		background-image: url("../../images/EchoBacktoBack.jpg");
 		background-color: rgb(32, 32, 32);
 		background-size: cover;
-		background-position: center ;
+		background-position: top center ;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 
+	}
+
+	#wrapper #placeholder {
+		width: 100vw;
 	}
 
 		#wrapper > .bg {
