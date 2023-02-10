@@ -3293,8 +3293,8 @@ input, select, textarea {
 			left: 0;
 			width: 100vw;
 			height: 100vh;
-			background-color: rgb(36, 36, 36);
-			background-image: url("../../images/EchoBacktoBack.jpg");
+			background-color: rgb(36, 36, 36, 0);
+			background-image: url();
 			background-size: cover;
 			background-position: top center ;
 			background-repeat: no-repeat;
