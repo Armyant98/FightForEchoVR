@@ -2653,6 +2653,12 @@ input, select, textarea {
 			height: 80%;
 		}
 		
+		.video {
+			display: block;
+			margin: 2.5rem 0;
+			width: 100%;
+			height: 50%;
+		}
 
 
 	
@@ -2664,6 +2670,8 @@ input, select, textarea {
 			width: 100%;
 			height: 600px;
 		}
+
+		
 
 
 
@@ -2679,11 +2687,18 @@ input, select, textarea {
 		}
 		}
 
+		@media screen and (max-width: 980px){
+			.video {
+				height: 150px;
+			}
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
 				margin: 2rem 0;
 			}
+
 
 			.image.main {
 				margin: 2rem 0;
@@ -2695,6 +2710,11 @@ input, select, textarea {
 				width: 100%;
 				height: 500px;
 				
+			}
+
+			.video {
+				margin: 2rem 0;
+				height: 150px;
 			}
 
 			
@@ -3955,6 +3975,7 @@ input, select, textarea {
 				border-style: solid;
 				border-top-width: 2px;
 				text-align: center;
+				min-height: fit;
 			}
 
 				#main > .posts > article > :last-child {
